@@ -55,6 +55,7 @@ body {
   overflow: auto;
   resize: none;
   outline: none;
+  max-height: 25rem;
 }
 
 .article__buttons {
@@ -85,12 +86,6 @@ body {
   width: 50%;
 }
 
-.aside__munheco {
-}
-
-#aside__description {
-}
-
 .aside__textarea {
   display: none;
   border: none;
@@ -107,4 +102,5 @@ body {
   width: 200px;
   height: 40px;
   border-radius: 50px;
+  margin-top: 6.5rem;
 }
