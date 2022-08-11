@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -50,6 +50,7 @@ body {
 
 .form__textarea {
   border: none;
+  font-size: 2rem;
   background-color: transparent;
   overflow: auto;
   resize: none;
@@ -84,10 +85,26 @@ body {
   width: 50%;
 }
 
+.aside__munheco {
+}
+
+#aside__description {
+}
+
 .aside__textarea {
+  display: none;
   border: none;
+  font-size: 2rem;
   background-color: transparent;
   overflow: auto;
   resize: none;
   outline: none;
+}
+
+.aside__clipboard {
+  display: none;
+  background: #D8DFE8;
+  width: 200px;
+  height: 40px;
+  border-radius: 50px;
 }
