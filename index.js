@@ -69,10 +69,9 @@ function copyToClipboard(elementId) {
     // se copia el texto que haya en el el capo de texto
     navigator.clipboard
       .writeText(copyText.textContent)
-      .then(() => console.log("Copied to clipboard"))
+      .then(() => alert("Copied to clipboard"))
       .catch(() => console.error("Something failed"));
     // se manda un alerta con el texto copiado
-    alert(`${copyText.value} copied to clipboard`);
     // se corta la ejecución para que no pase al siguiente alert
     return;
   }
